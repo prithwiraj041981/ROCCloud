@@ -8,7 +8,7 @@ import io.cucumber.testng.CucumberOptions;
 plugin = {"pretty","html:Report1"},dryRun = false,monochrome=true)
 
 
-public class CucumberRunnerTests extends AbstractTestNGCucumberTests{
+public class CucumberRunnerTestslandlordlogin extends AbstractTestNGCucumberTests{
 	
 	
 

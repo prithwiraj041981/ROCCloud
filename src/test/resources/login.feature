@@ -10,5 +10,6 @@ Background:
     Examples:
     | username   | password |
     | prithwirajroc@mailinator.com | Mylogin@123 |
+    
 
   
