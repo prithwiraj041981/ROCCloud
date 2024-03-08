@@ -17,19 +17,18 @@
     
     <!-- cucumberjunit -->
     
-    <dependency>
-        <groupId>info.cukes</groupId>
-        <artifactId>cucumber-junit</artifactId>
-        <version>1.2.0</version>
-        
-    </dependency>
-    <!-- cucumber core -->
-     <dependency>
+      <dependency>
         <groupId>info.cukes</groupId>
         <artifactId>cucumber-core</artifactId>
         <version>1.2.0</version>
         
     </dependency>
+    <!-- cucumber core -->
+     <dependency>
+    <groupId>io.cucumber</groupId>
+    <artifactId>cucumber-testng</artifactId>
+    <version>7.11.0</version>
+</dependency>
     
 <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-testng -->
 <dependency>
@@ -75,6 +74,14 @@
     <artifactId>rest-assured</artifactId>
     <version>5.3.0</version>
     <scope>test</scope>
+</dependency>
+
+
+<!-- https://mvnrepository.com/artifact/io.qameta.allure/allure-testng -->
+<dependency>
+    <groupId>io.qameta.allure</groupId>
+    <artifactId>allure-testng</artifactId>
+    <version>2.21.0</version>
 </dependency>
 
 

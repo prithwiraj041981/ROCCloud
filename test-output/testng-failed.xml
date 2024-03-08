@@ -6,8 +6,8 @@
       <class name="ROCLoginrunner.CucumberRunnerTestslandlordlogin">
         <methods>
           <include name="setUpClass"/>
-          <include name="tearDownClass"/>
           <include name="runScenario" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
         </methods>
       </class> <!-- ROCLoginrunner.CucumberRunnerTestslandlordlogin -->
     </classes>
